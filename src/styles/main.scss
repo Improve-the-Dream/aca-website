@@ -1,0 +1,12 @@
+// 1 - HELPERS
+@import "1-helpers/variables";
+@import "1-helpers/mixins";
+
+// 2 - BASICS
+@import "2-basics/spacing";
+
+// 3 - PAGES
+@import "3-pages/Navbar";
+@import "3-pages/Footer";
+
+@import "setup";

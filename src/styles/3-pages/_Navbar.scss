@@ -1,0 +1,49 @@
+.Navbar {
+  background: $marine;
+  width: 100vw;
+  height: $navbar-height;
+  @include center;
+  position: fixed;
+
+  .content {
+    width: 100%;
+    height: $navbar-height;
+    max-width: $max-width;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    @include md-screen {
+      padding: 0 20px;
+    }
+  }
+
+  button {
+    height: 45px;
+    background: none;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 0 20px;
+    color: white;
+
+    @include md-screen {
+      font-size: 16px;
+      padding: 0 15px;
+      height: 35px;
+    }
+
+    @include sm-screen {
+      font-size: 14px;
+      padding: 0 10px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background: $red;
+      transition: 200ms;
+    }
+  }
+}
