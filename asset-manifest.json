@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aca-website/static/css/main.4d5d37ae.css",
+    "main.js": "/aca-website/static/js/main.9f3c56c5.js",
+    "index.html": "/aca-website/index.html",
+    "main.4d5d37ae.css.map": "/aca-website/static/css/main.4d5d37ae.css.map",
+    "main.9f3c56c5.js.map": "/aca-website/static/js/main.9f3c56c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d5d37ae.css",
+    "static/js/main.9f3c56c5.js"
+  ]
+}
