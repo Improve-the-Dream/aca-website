@@ -7,6 +7,14 @@ button {
   color: white;
   border: none;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    margin-right: 8px;
+  }
+
   &:hover {
     transition: 300ms;
     background: $darkred;

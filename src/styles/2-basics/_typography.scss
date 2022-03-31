@@ -9,18 +9,23 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p {
+  font-size: 22px;
+
+  @include lg-screen {
+    font-size: 18px;
+  }
+}
+
 mark.white {
   background-color: white;
 }
 
-.half-highlight {
+.bold {
+  font-weight: bolder;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 72%,
     $lightred 50%
   );
-}
-
-.bold {
-  font-weight: bolder;
 }

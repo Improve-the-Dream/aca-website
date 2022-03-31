@@ -10,23 +10,18 @@
   flex-direction: column;
 
   .content {
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
+
+    @include lg-screen {
+      font-size: 22px;
+    }
   }
 
   .buttons {
     display: flex;
     flex-direction: row;
     margin: 20px;
-
-    button {
-      display: flex;
-      align-items: center;
-
-      svg {
-        margin-right: 8px;
-      }
-    }
   }
 }

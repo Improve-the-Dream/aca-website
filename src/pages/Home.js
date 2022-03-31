@@ -4,15 +4,15 @@ import { CgFileDocument } from "react-icons/cg";
 function Home(props) {
   return (
     <div className="Home" ref={props.refs}>
-      <div className="content p-30">
+      <p className="content p-30">
         <mark className="white">
           The Senate and House have introduced{" "}
-          <span className="bold half-highlight">America's CHILDREN Act</span> to
-          permanently protect the children of long-term visa holders from “aging
-          out” of the system and protect them from self-deportation when they
-          reach <span className="bold half-highlight">age 21</span>.
+          <span className="bold">America's CHILDREN Act</span> to permanently
+          protect the children of long-term visa holders from “aging out” of the
+          system and protect them from self-deportation when they reach{" "}
+          <span className="bold">age 21</span>.
         </mark>
-      </div>
+      </p>
       <div className="buttons">
         <button
           onClick={() =>
