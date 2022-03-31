@@ -19,7 +19,7 @@ function Stories(props) {
                   <div className="quote">
                     <FaQuoteLeft /> {value.quote} <FaQuoteRight />
                   </div>
-                  <button>
+                  <button onClick={() => window.open(value.link, "_blank")}>
                     Read More <FaArrowRight />
                   </button>
                   <div className="name">{value.name}</div>
