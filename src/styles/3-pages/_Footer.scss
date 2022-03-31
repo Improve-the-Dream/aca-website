@@ -1,5 +1,40 @@
 .Footer {
-  background: $marine;
+  background: $gray;
   color: white;
-  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-size: 20px;
+
+  .logo {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .mail a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a {
+    color: white;
+  }
+
+  .media {
+    width: 350px;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid gray;
+
+    svg {
+      height: 45px;
+      width: 45px;
+      padding: 0 15px;
+    }
+  }
 }
