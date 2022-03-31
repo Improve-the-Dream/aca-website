@@ -1,11 +1,17 @@
 import React from "react";
-import Logo from "../assets/Logo.png";
+import { scrollToSection } from "../functions/Scroll";
+import Logo from "../assets/img/Logo.png";
 import { BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
 
-function Footer() {
+function Footer(props) {
   return (
     <div className="Footer">
-      <img className="logo" src={Logo} />
+      <img
+        className="logo"
+        alt="logo"
+        src={Logo}
+        onClick={() => scrollToSection(props.homeRef)}
+      />
       <div className="mail">
         Contact Us:{" "}
         <a href="mailto: info@improvethedream.org">info@ImproveTheDream.org</a>

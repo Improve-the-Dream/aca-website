@@ -8,3 +8,19 @@ body {
 .open-sans {
   font-family: "Open Sans", sans-serif;
 }
+
+mark.white {
+  background-color: white;
+}
+
+.half-highlight {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 72%,
+    $lightred 50%
+  );
+}
+
+.bold {
+  font-weight: bolder;
+}

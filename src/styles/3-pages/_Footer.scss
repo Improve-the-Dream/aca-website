@@ -11,6 +11,10 @@
   .logo {
     height: 175px;
     margin-bottom: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   a {

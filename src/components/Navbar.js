@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../assets/Logo.png";
+import { scrollToSection } from "../functions/Scroll";
+import Logo from "../assets/img/Logo.png";
 import { CgClose, CgMenu } from "react-icons/cg";
 
-function Navbar() {
+function Navbar(props) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [dropdown, setDropdown] = useState(false);
 
@@ -12,16 +13,61 @@ function Navbar() {
     });
   }, []);
 
+  function Links() {
+    return (
+      <>
+        <div
+          className="link"
+          onClick={() => {
+            scrollToSection(props.homeRef);
+            setDropdown(false);
+          }}
+        >
+          home
+        </div>
+        <div
+          className="link"
+          onClick={() => {
+            scrollToSection(props.aboutRef);
+            setDropdown(false);
+          }}
+        >
+          about
+        </div>
+        <div
+          className="link"
+          onClick={() => {
+            scrollToSection(props.storiesRef);
+            setDropdown(false);
+          }}
+        >
+          stories
+        </div>
+        <div
+          className="link"
+          onClick={() => {
+            scrollToSection(props.actionRef);
+            setDropdown(false);
+          }}
+        >
+          take action
+        </div>
+      </>
+    );
+  }
+
   return (
     <div className="Navbar">
       <div className="content open-sans">
-        <img className="logo" src={Logo} />
+        <img
+          className="logo"
+          alt="logo"
+          src={Logo}
+          onClick={() => scrollToSection(props.homeRef)}
+        />
         {windowWidth > 780 ? (
           <div className="links">
-            <a>home</a>
-            <a>about</a>
-            <a>stories</a>
-            <a>take action</a>
+            <Links />
           </div>
         ) : (
           <div className="dropdown">
@@ -34,10 +80,7 @@ function Navbar() {
               )}
             </div>
             <div className={"links " + dropdown}>
-              <a>home</a>
-              <a>about</a>
-              <a>stories</a>
-              <a>take action</a>
+              <Links />
             </div>
           </div>
         )}
