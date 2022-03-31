@@ -12,18 +12,18 @@ function Footer() {
       </div>
       <div className="media">
         <a
-          href="https://www.instagram.com/improvethedream/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsInstagram />
-        </a>
-        <a
           href="https://twitter.com/improvethedream"
           target="_blank"
           rel="noreferrer"
         >
           <BsTwitter />
+        </a>
+        <a
+          href="https://www.instagram.com/improvethedream/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsInstagram />
         </a>
         <a
           href="https://www.facebook.com/ImproveTheDreamOrg/"

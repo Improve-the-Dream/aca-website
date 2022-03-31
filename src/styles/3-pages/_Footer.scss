@@ -6,10 +6,15 @@
   align-items: center;
   padding: 30px;
   font-size: 20px;
+  text-align: center;
 
   .logo {
-    height: 200px;
+    height: 175px;
     margin-bottom: 20px;
+  }
+
+  a {
+    color: white;
   }
 
   .mail a {
@@ -19,12 +24,8 @@
     }
   }
 
-  a {
-    color: white;
-  }
-
   .media {
-    width: 350px;
+    width: 300px;
     margin-top: 20px;
     padding-top: 20px;
     display: flex;
