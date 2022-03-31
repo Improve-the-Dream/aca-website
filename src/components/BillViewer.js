@@ -17,7 +17,7 @@ function BillViewer() {
   };
 
   return (
-    <div className="BillViewer">
+    <div className={"BillViewer " + isViewerOpen}>
       <img
         className="bill-img"
         src={BillSummary}

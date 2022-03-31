@@ -5,6 +5,7 @@
   height: $navbar-height;
   @include center;
   position: fixed;
+  z-index: 2;
 
   // normal menu
   .content {
