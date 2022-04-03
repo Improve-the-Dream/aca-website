@@ -4,6 +4,7 @@ import { getCongressData } from "../functions/CongressData.js";
 function CallingTool() {
   const [address, setAddress] = useState();
   const [result, setResult] = useState();
+  const [location, setLocation] = useState();
   const [errorMessage, setError] = useState();
 
   const handleChange = (e) => {
@@ -14,13 +15,15 @@ function CallingTool() {
     e.preventDefault();
     getCongressData(address)
       .then((data) => {
-        console.log("success", data);
-        setResult(data);
+        // console.log("success", data);
+        setResult(data.reps);
+        setLocation(data.location);
         setError();
       })
       .catch((error) => {
-        console.log("error", error);
+        // console.log("error", error);
         setResult();
+        setLocation();
         setError(error.error);
       });
   };
@@ -38,6 +41,14 @@ function CallingTool() {
           <input type="submit" value="Submit" />
         </form>
       </div>
+
+      {location ? (
+        <div className="location">
+          <span>Location</span>: {location}
+        </div>
+      ) : (
+        <></>
+      )}
 
       {/* form results */}
       {result ? (

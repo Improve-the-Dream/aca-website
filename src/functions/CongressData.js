@@ -8,10 +8,14 @@ export async function getCongressData(location) {
         if (data.error) {
           reject(data);
         } else {
+          //   console.log(data);
           const reps = addRepsToArray(
             data.results[0].fields.congressional_districts
           );
-          resolve(reps);
+          resolve({
+            reps: reps,
+            location: data.results[0].formatted_address,
+          });
         }
       })
       .catch((error) => {
