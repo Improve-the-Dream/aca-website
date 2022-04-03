@@ -1,0 +1,81 @@
+.Action {
+  max-width: $max-width;
+  margin: auto;
+  padding-bottom: 60px;
+
+  .content {
+    display: grid;
+    grid-template-columns: 40% auto;
+    column-gap: 10px;
+
+    @include lg-screen {
+      grid-template-columns: auto;
+      row-gap: 15px;
+    }
+
+    .tool {
+      border: 2px $lightmarine solid;
+      padding: 15px;
+
+      form {
+        display: grid;
+        grid-template-columns: 70% auto;
+        column-gap: 5px;
+
+        @include md-screen {
+          grid-template-columns: auto;
+          input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 0;
+          }
+        }
+
+        input[type="text"] {
+          height: 40px;
+          border: 2px solid $marine;
+          border-radius: 4px;
+          padding: 0 10px;
+          font-size: 18px;
+          color: $marine;
+          text-align: center;
+
+          &::placeholder {
+            text-align: center;
+            font-style: italic;
+          }
+        }
+
+        input[type="submit"] {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          border-radius: 4px;
+          background: $lightmarine;
+          color: white;
+          border: none;
+
+          &:hover {
+            transition: 300ms;
+            background: $marine;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .form-results {
+      border-top: 1px solid black;
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+
+    .template {
+      padding: 15px;
+      background: $lightmarine;
+      color: white;
+
+      .italic {
+        color: $lightred;
+      }
+    }
+  }
+}

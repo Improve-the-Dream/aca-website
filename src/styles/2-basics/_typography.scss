@@ -9,6 +9,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  color: $darkred;
+  text-transform: uppercase;
+  text-shadow: 0px 3px rgb(153, 153, 153);
+}
+
 p {
   font-size: 22px;
 
@@ -28,4 +34,9 @@ mark.white {
     rgba(255, 255, 255, 0) 72%,
     $lightred 50%
   );
+}
+
+.italic {
+  font-style: italic;
+  text-decoration: underline;
 }

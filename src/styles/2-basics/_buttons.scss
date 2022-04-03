@@ -11,6 +11,10 @@ button {
   align-items: center;
   justify-content: center;
 
+  @include sm-screen {
+    padding: 10px 15px;
+  }
+
   svg {
     margin-right: 8px;
   }
