@@ -6,8 +6,8 @@ function Action(props) {
     <div className="Action p-30" ref={props.refs}>
       <h1>Take Action</h1>
       <p>
-        Call your Senator's Office to encourage them to co-sponsor America's
-        CHILDREN Act.
+        Call your Representative's Office to encourage them to co-sponsor
+        America's CHILDREN Act.
       </p>
       <div className="content">
         <CallingTool />

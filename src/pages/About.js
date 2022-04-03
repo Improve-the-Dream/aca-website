@@ -61,9 +61,9 @@ function About(props) {
       <div className="videos">
         <h1>Meet Documented Dreamers</h1>
         <div className="video-grid">
-          {youtubeVideos.map((value) => {
+          {youtubeVideos.map((value, index) => {
             return (
-              <div className="vid-container">
+              <div className="vid-container" key={index}>
                 <ReactPlayer
                   url={value}
                   controls={true}
