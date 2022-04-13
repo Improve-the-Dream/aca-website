@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aca-website/static/css/main.397065c2.css",
-    "main.js": "/aca-website/static/js/main.4230f2e3.js",
+    "main.css": "/aca-website/static/css/main.ad8c5450.css",
+    "main.js": "/aca-website/static/js/main.002406c5.js",
     "static/media/Padma.jpg": "/aca-website/static/media/Padma.acd974233ab4d6c36a08.jpg",
     "static/media/Sanjana.jpg": "/aca-website/static/media/Sanjana.88d473a5cd5c8cd8d7cf.jpg",
     "static/media/Lakshmi.jpg": "/aca-website/static/media/Lakshmi.f131965ee4e92be33a42.jpg",
@@ -10,13 +10,14 @@
     "static/media/BillSummary.jpg": "/aca-website/static/media/BillSummary.5fabddc5bde5029c90aa.jpg",
     "static/media/Congress.jpg": "/aca-website/static/media/Congress.9e7058d78ffb04c94876.jpg",
     "static/media/Pareen.jpg": "/aca-website/static/media/Pareen.dbaf52db4b410b174fa7.jpg",
-    "static/media/Logo.png": "/aca-website/static/media/Logo.3d6b237dea75b81e8de5.png",
+    "static/media/Logo.png": "/aca-website/static/media/Logo.7835fe5798a92e0dd372.png",
+    "static/media/ITDLogo.jpg": "/aca-website/static/media/ITDLogo.c366657537ddcc002fed.jpg",
     "index.html": "/aca-website/index.html",
-    "main.397065c2.css.map": "/aca-website/static/css/main.397065c2.css.map",
-    "main.4230f2e3.js.map": "/aca-website/static/js/main.4230f2e3.js.map"
+    "main.ad8c5450.css.map": "/aca-website/static/css/main.ad8c5450.css.map",
+    "main.002406c5.js.map": "/aca-website/static/js/main.002406c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.397065c2.css",
-    "static/js/main.4230f2e3.js"
+    "static/css/main.ad8c5450.css",
+    "static/js/main.002406c5.js"
   ]
 }
