@@ -1,6 +1,6 @@
 import React from "react";
 import { scrollToSection } from "../functions/Scroll";
-import Logo from "../assets/img/Logo.png";
+import ITDLogo from "../assets/img/ITDLogo.jpg";
 import { BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
 
 function Footer(props) {
@@ -9,7 +9,7 @@ function Footer(props) {
       <img
         className="logo"
         alt="logo"
-        src={Logo}
+        src={ITDLogo}
         onClick={() => scrollToSection(props.homeRef)}
       />
       <div className="mail">

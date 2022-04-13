@@ -21,8 +21,10 @@
     }
 
     .logo {
-      margin-top: 5px;
-      height: 130px;
+      margin-top: 10px;
+      height: 120px;
+      border-radius: 50%;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
       &:hover {
         cursor: pointer;
@@ -99,12 +101,13 @@
         flex-direction: column;
         justify-content: flex-end;
         transition: 700ms;
-        position: relative;
-        top: 0px;
+        position: absolute;
+        height: fit-content;
+        top: $navbar-height;
       }
 
       .links.false {
-        top: -275px;
+        top: -150px;
       }
     }
   }

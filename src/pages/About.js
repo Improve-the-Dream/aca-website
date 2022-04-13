@@ -14,22 +14,24 @@ function About(props) {
     <div className="About p-30" ref={props.refs}>
       {/* content */}
       <div className="content">
-        <h1>Documented Dreamers</h1>
+        <h1>About Us</h1>
+        {/* <h1>Documented Dreamers</h1> */}
         <p>
-          <span className="bold">Documented Dreamers</span> are young immigrants
-          who have grown up in the United States as child dependents of
-          long-term visa holders without a clear path to citizenship.
+          Over 200,000 children of long term visa holders, who have been raised
+          and educated in the United States, face aging-out at 21. These young
+          Dreamers are also known as{" "}
+          <span className="bold">Documented Dreamers</span>.
         </p>
         <p>
           These Dreamers were brought here at an average age of 5 and have been
           living here for an average time of over 12 years. Due to the
           decades-long green card backlogs affecting some visa holders (H-1B)
-          and others having no pathway to citizenship (E-2), we age out and face
-          self-deportation from the only home we have ever known after{" "}
-          <span className="bold">losing our dependent status at age 21</span>.
+          and others having no pathway to citizenship (E-2), they age-out and
+          face self-deportation from the only home they have ever known after{" "}
+          <span className="bold">losing their dependent status at age 21</span>.
         </p>
         <p>
-          Documented Dreamers have historically been left out of solutions for
+          These individuals have historically been left out of solutions for
           Dreamers because they do not meet the requirement of being
           undocumented. <span className="bold">America's CHILDREN Act</span>{" "}
           would permanently solve the aging-out issue that affects Documented
@@ -59,7 +61,7 @@ function About(props) {
 
       {/* videos */}
       <div className="videos">
-        <h1>Meet Documented Dreamers</h1>
+        {/* <h1>Meet Documented Dreamers</h1> */}
         <div className="video-grid">
           {youtubeVideos.map((value, index) => {
             return (
@@ -81,7 +83,7 @@ function About(props) {
       <div className="bill">
         <h1>Get to Know the Bill</h1>
         <p>
-          Documented Dreamers face self-deportation after aging out of the
+          Documented Dreamers face self-deportation after aging-out of the
           system. America's CHILDREN Act aims to permanently end aging-out for
           Documented Dreamers by providing a clear pathway to citizenship.{" "}
         </p>

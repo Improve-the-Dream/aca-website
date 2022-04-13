@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { getCongressData } from "../functions/CongressData.js";
 
 function CallingTool() {
@@ -69,7 +69,9 @@ function CallingTool() {
                     {name}
                     <div className="party">{party}</div>
                   </td>
-                  <td>{phone}</td>
+                  <td>
+                    <a href={"tel:" + phone}>{phone}</a>
+                  </td>
                 </tr>
               );
             })}
