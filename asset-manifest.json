@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/aca-website/static/css/main.ad8c5450.css",
-    "main.js": "/aca-website/static/js/main.002406c5.js",
-    "static/media/Padma.jpg": "/aca-website/static/media/Padma.acd974233ab4d6c36a08.jpg",
-    "static/media/Sanjana.jpg": "/aca-website/static/media/Sanjana.88d473a5cd5c8cd8d7cf.jpg",
-    "static/media/Lakshmi.jpg": "/aca-website/static/media/Lakshmi.f131965ee4e92be33a42.jpg",
-    "static/media/Hilary.jpg": "/aca-website/static/media/Hilary.1b64df4061bbddf1539d.jpg",
-    "static/media/Anagh.jpg": "/aca-website/static/media/Anagh.d76cc199b39651d620ac.jpg",
-    "static/media/BillSummary.jpg": "/aca-website/static/media/BillSummary.5fabddc5bde5029c90aa.jpg",
-    "static/media/Congress.jpg": "/aca-website/static/media/Congress.9e7058d78ffb04c94876.jpg",
-    "static/media/Pareen.jpg": "/aca-website/static/media/Pareen.dbaf52db4b410b174fa7.jpg",
-    "static/media/Logo.png": "/aca-website/static/media/Logo.7835fe5798a92e0dd372.png",
-    "static/media/ITDLogo.jpg": "/aca-website/static/media/ITDLogo.c366657537ddcc002fed.jpg",
-    "index.html": "/aca-website/index.html",
-    "main.ad8c5450.css.map": "/aca-website/static/css/main.ad8c5450.css.map",
-    "main.002406c5.js.map": "/aca-website/static/js/main.002406c5.js.map"
+    "main.css": "/static/css/main.d7e23a3e.css",
+    "main.js": "/static/js/main.01f2b18f.js",
+    "static/media/Padma.jpg": "/static/media/Padma.acd974233ab4d6c36a08.jpg",
+    "static/media/Sanjana.jpg": "/static/media/Sanjana.88d473a5cd5c8cd8d7cf.jpg",
+    "static/media/Lakshmi.jpg": "/static/media/Lakshmi.f131965ee4e92be33a42.jpg",
+    "static/media/Hilary.jpg": "/static/media/Hilary.1b64df4061bbddf1539d.jpg",
+    "static/media/Anagh.jpg": "/static/media/Anagh.d76cc199b39651d620ac.jpg",
+    "static/media/BillSummary.jpg": "/static/media/BillSummary.5fabddc5bde5029c90aa.jpg",
+    "static/media/Congress.jpg": "/static/media/Congress.9e7058d78ffb04c94876.jpg",
+    "static/media/Pareen.jpg": "/static/media/Pareen.dbaf52db4b410b174fa7.jpg",
+    "static/media/Logo.png": "/static/media/Logo.7835fe5798a92e0dd372.png",
+    "static/media/ITDLogo.jpg": "/static/media/ITDLogo.c366657537ddcc002fed.jpg",
+    "index.html": "/index.html",
+    "main.d7e23a3e.css.map": "/static/css/main.d7e23a3e.css.map",
+    "main.01f2b18f.js.map": "/static/js/main.01f2b18f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad8c5450.css",
-    "static/js/main.002406c5.js"
+    "static/css/main.d7e23a3e.css",
+    "static/js/main.01f2b18f.js"
   ]
 }
