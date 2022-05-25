@@ -40,3 +40,11 @@ mark.white {
   font-style: italic;
   text-decoration: underline;
 }
+
+.number {
+  color: $marine;
+  font-size: 38px;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}

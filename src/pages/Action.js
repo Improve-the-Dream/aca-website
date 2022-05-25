@@ -6,8 +6,9 @@ function Action(props) {
     <div className="Action p-30" ref={props.refs}>
       <h1>Take Action</h1>
       <p>
-        Call your Representative's Office to encourage them to co-sponsor
-        America's CHILDREN Act.
+        <span className="number">1. </span>
+        <span className="bold">Call your Representative's Office</span> to
+        encourage them to co-sponsor America's CHILDREN Act.
       </p>
       <div className="content">
         <CallingTool />
@@ -29,14 +30,17 @@ function Action(props) {
         </div>
       </div>
       <p className="letter">
+        <span className="number">2. </span>
+        <span className="bold">Send a letter</span> to your Senator in less than
+        one minute{" "}
         <a
           href="https://www.improvethedream.org/letter"
           target="_blank"
           rel="noreferrer"
         >
-          Click here
-        </a>{" "}
-        to send a letter to your Senator in less than one minute!
+          from here
+        </a>
+        !
       </p>
     </div>
   );

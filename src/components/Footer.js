@@ -1,6 +1,6 @@
 import React from "react";
 import { scrollToSection } from "../functions/Scroll";
-import ITDLogo from "../assets/img/ITDLogo.jpg";
+import ITDLogo from "../assets/img/ITDLogo.png";
 import { BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
 
 function Footer(props) {
