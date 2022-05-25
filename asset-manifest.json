@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c10b46f.css",
-    "main.js": "/static/js/main.340c2905.js",
+    "main.css": "/static/css/main.a82d2242.css",
+    "main.js": "/static/js/main.f3e7d49b.js",
     "static/media/Padma.jpg": "/static/media/Padma.acd974233ab4d6c36a08.jpg",
     "static/media/Sanjana.jpg": "/static/media/Sanjana.88d473a5cd5c8cd8d7cf.jpg",
     "static/media/Lakshmi.jpg": "/static/media/Lakshmi.f131965ee4e92be33a42.jpg",
+    "static/media/ITDLogo.png": "/static/media/ITDLogo.ef5df89e6672eee0491e.png",
     "static/media/Hilary.jpg": "/static/media/Hilary.1b64df4061bbddf1539d.jpg",
     "static/media/Anagh.jpg": "/static/media/Anagh.d76cc199b39651d620ac.jpg",
     "static/media/BillSummary.jpg": "/static/media/BillSummary.5fabddc5bde5029c90aa.jpg",
     "static/media/Congress.jpg": "/static/media/Congress.9e7058d78ffb04c94876.jpg",
     "static/media/Pareen.jpg": "/static/media/Pareen.dbaf52db4b410b174fa7.jpg",
     "static/media/Logo.png": "/static/media/Logo.7835fe5798a92e0dd372.png",
-    "static/media/ITDLogo.jpg": "/static/media/ITDLogo.c366657537ddcc002fed.jpg",
     "index.html": "/index.html",
-    "main.2c10b46f.css.map": "/static/css/main.2c10b46f.css.map",
-    "main.340c2905.js.map": "/static/js/main.340c2905.js.map"
+    "main.a82d2242.css.map": "/static/css/main.a82d2242.css.map",
+    "main.f3e7d49b.js.map": "/static/js/main.f3e7d49b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c10b46f.css",
-    "static/js/main.340c2905.js"
+    "static/css/main.a82d2242.css",
+    "static/js/main.f3e7d49b.js"
   ]
 }
