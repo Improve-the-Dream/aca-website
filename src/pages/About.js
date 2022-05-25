@@ -47,7 +47,7 @@ function About(props) {
             ImproveTheDream.org
           </a>
           <br />
-          If you are a Documented Dreamer, please complete{" "}
+          If you are someone in this situation, please complete{" "}
           <a
             href="https://www.improvethedream.org/survey"
             target="_blank"

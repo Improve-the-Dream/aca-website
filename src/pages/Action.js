@@ -28,6 +28,16 @@ function Action(props) {
           found at AmericasChildrenAct.com. Thank you.
         </div>
       </div>
+      <p className="letter">
+        <a
+          href="https://www.improvethedream.org/letter"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Click here
+        </a>{" "}
+        to send a letter to your Senator in less than one minute!
+      </p>
     </div>
   );
 }
