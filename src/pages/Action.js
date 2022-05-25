@@ -31,8 +31,15 @@ function Action(props) {
       </div>
       <p className="letter">
         <span className="number">2. </span>
-        <span className="bold">Send a letter</span> to your Senator in less than
-        one minute{" "}
+        <a
+          href="https://www.improvethedream.org/letter"
+          target="_blank"
+          rel="noreferrer"
+          className="bold"
+        >
+          Send a letter
+        </a>{" "}
+        to your Senator in less than one minute{" "}
         <a
           href="https://www.improvethedream.org/letter"
           target="_blank"
