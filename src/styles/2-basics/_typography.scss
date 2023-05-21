@@ -24,10 +24,10 @@ p {
 }
 
 p.long-text {
-  font-size: 18px;
+  font-size: 22px;
 
   @include lg-screen {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
