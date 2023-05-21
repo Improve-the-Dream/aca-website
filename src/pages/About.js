@@ -18,10 +18,10 @@ function About(props) {
         {/* <h1>Documented Dreamers</h1> */}
         <p>
           Over 250,000 children and young adults are living in the United States
-          as dependents of employment-based visa holders. These individuals have
-          grown up legally in the United States, attended American schools, and
-          attend American universities.
-          <span className="bold">Documented Dreamers</span>.
+          as dependents of employment-based visa holders. These individuals,
+          known as <span className="bold">Documented Dreamers</span>, have grown
+          up legally in the United States, attended American schools, and attend
+          American universities.
         </p>
         <p>
           These children can remain in dependent status on a parent's
