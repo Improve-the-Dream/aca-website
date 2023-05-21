@@ -23,6 +23,14 @@ p {
   }
 }
 
+p.long-text {
+  font-size: 18px;
+
+  @include lg-screen {
+    font-size: 14px;
+  }
+}
+
 mark.white {
   background-color: white;
 }

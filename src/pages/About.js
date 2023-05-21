@@ -17,25 +17,48 @@ function About(props) {
         <h1>About Us</h1>
         {/* <h1>Documented Dreamers</h1> */}
         <p>
-          Over 200,000 children of long term visa holders, who have been raised
-          and educated in the United States, face aging-out at 21. These young
-          Dreamers are also known as{" "}
+          Over 250,000 children and young adults are living in the United States
+          as dependents of employment-based visa holders. These individuals have
+          grown up legally in the United States, attended American schools, and
+          attend American universities.
           <span className="bold">Documented Dreamers</span>.
         </p>
         <p>
-          These Dreamers were brought here at an average age of 5 and have been
-          living here for an average time of over 12 years. Due to the
-          decades-long green card backlogs affecting some visa holders (H-1B)
-          and others having no pathway to citizenship (E-2), they age-out and
-          face self-deportation from the only home they have ever known after{" "}
-          <span className="bold">losing their dependent status at age 21</span>.
+          These children can remain in dependent status on a parent's
+          employment-based nonimmigrant visa until they turn 21. Many are also
+          listed as dependents on a parent's green card application. Sadly, due
+          to decades-long backlogs and problems with the Child Status Protection
+          Act, many of these young adults turn 21 before a visa number for a
+          green card finally becomes available. As a result,{" "}
+          <span className="bold">
+            they lose their status and their opportunity to obtain a green card.
+          </span>
         </p>
         <p>
-          These individuals have historically been left out of solutions for
-          Dreamers because they do not meet the requirement of being
-          undocumented. <span className="bold">America's CHILDREN Act</span>{" "}
-          would permanently solve the aging-out issue that affects Documented
-          Dreamers.
+          While most young adults celebrate turning 21, dependents of long-term
+          employment-based visa-holders bear a heavy burden. They must obtain
+          another status or{" "}
+          <span className="bold">leave behind their families</span>—and the only
+          country they have ever known—to return to their country of birth.
+        </p>
+        <p className="long-text">
+          When long-term dependents are forced to leave, it is also a loss to
+          America's communities and employers. Despite being educated in our
+          universities, these young adults, who are overwhelmingly graduates in
+          STEM fields, must take their skills and talent to our global
+          competitors. The gaps in our immigration laws that force these young
+          adults to leave the United States also prevent American companies from
+          attracting and retaining critical talent in the United States. Many
+          immigrants have left the United States for countries with less
+          burdensome immigration policies, often citing their children aging out
+          as a factor in their departure. We cannot maintain our competitive
+          edge on the world stage unless we commit to doing better by such
+          individuals and their families.
+        </p>
+        <p>
+          <span className="bold">America's CHILDREN Act</span> would permanently
+          solve the aging-out issue that affects American raised and educated
+          children.
         </p>
         <p>
           To learn more, visit{" "}
@@ -45,6 +68,13 @@ function About(props) {
             rel="noreferrer"
           >
             ImproveTheDream.org
+          </a>{" "}
+          or look at the{" "}
+          <a
+            href={require("../assets/pdf/America'sChildrenAct_One-Pager.pdf")}
+            download="America's Children Act One Pager"
+          >
+            America's Children Act One Pager
           </a>
           <br />
           If you are someone in this situation, please complete{" "}
@@ -83,9 +113,8 @@ function About(props) {
       <div className="bill">
         <h1>Get to Know the Bill</h1>
         <p>
-          Documented Dreamers face self-deportation after aging-out of the
-          system. America's CHILDREN Act aims to permanently end aging-out for
-          Documented Dreamers by providing a clear pathway to citizenship.{" "}
+          America's CHILDREN Act aims to permanently end aging-out for
+          Documented Dreamers.{" "}
         </p>
         <div className="bill-content">
           <BillViewer />
@@ -94,12 +123,12 @@ function About(props) {
               <li>
                 <p>
                   <span className="bold">
-                    Provides a pathway to permanent residency
+                    Allows individuals to obtain permanent residency
                   </span>{" "}
-                  for individuals who were brought to the United States as child
-                  dependents of long-term visa holders, have maintained status
-                  in the United States for 10 years, and have graduated from an
-                  institution of higher education.
+                  who were brought to the United States as child dependents of
+                  long-term visa holders, have maintained status in the United
+                  States for 10 years (including 8 years as dependents), and
+                  have graduated from an institution of higher education.
                 </p>
               </li>
               <li>

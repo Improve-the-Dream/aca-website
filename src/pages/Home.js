@@ -17,7 +17,7 @@ function Home(props) {
         <button
           onClick={() =>
             window.open(
-              "https://www.congress.gov/bill/118th-congress/house-bill/3442?q=%7B%22search%22%3A%5B%22Deborah+ross%22%5D%7D&s=5&r=2",
+              "https://www.congress.gov/bill/118th-congress/house-bill/3442",
               "_blank"
             )
           }
@@ -27,7 +27,7 @@ function Home(props) {
         <button
           onClick={() =>
             window.open(
-              "https://www.congress.gov/bill/118th-congress/senate-bill/1667?q=%7B%22search%22%3A%5B%22Padilla%22%5D%7D&s=8&r=1",
+              "https://www.congress.gov/bill/118th-congress/senate-bill/1667",
               "_blank"
             )
           }
