@@ -21,7 +21,7 @@ function App() {
         actionRef={actionRef}
       />
       <div className="pages">
-        <Home refs={homeRef} />
+        <Home refs={homeRef} actionRef={actionRef} />
         <About refs={aboutRef} />
         <Stories refs={storiesRef} />
         <Action refs={actionRef} />

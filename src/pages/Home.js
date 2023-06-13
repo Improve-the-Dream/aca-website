@@ -1,5 +1,6 @@
 import React from "react";
 import { CgFileDocument } from "react-icons/cg";
+import { scrollToSection } from "../functions/Scroll";
 
 function Home(props) {
   return (
@@ -35,6 +36,9 @@ function Home(props) {
           <CgFileDocument /> S. 1667
         </button>
       </div>
+      <button onClick={() => scrollToSection(props.actionRef)}>
+        Take Action Now!
+      </button>
     </div>
   );
 }
