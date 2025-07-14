@@ -40,7 +40,9 @@ function Home(props) {
       <button onClick={() => scrollToSection(props.actionRef)}>
         Take Action Now!
       </button>
-      <Disclaimer />
+      <div className="p-30">
+        <Disclaimer />
+      </div>
     </div>
   );
 }
