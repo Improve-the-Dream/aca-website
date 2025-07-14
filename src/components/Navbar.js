@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { scrollToSection } from "../functions/Scroll";
-import Logo from "../assets/img/Logo.png";
+import Logo from "../assets/img/ITDLogo.png";
 import { CgClose, CgMenu } from "react-icons/cg";
 
 function Navbar(props) {
