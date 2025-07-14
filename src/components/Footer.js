@@ -6,12 +6,12 @@ import { BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
 function Footer(props) {
   return (
     <div className="Footer">
-      <img
+      {/* <img
         className="logo"
         alt="logo"
         src={ITDLogo}
         onClick={() => scrollToSection(props.homeRef)}
-      />
+      /> */}
       <div className="mail">
         Contact Us:{" "}
         <a href="mailto: info@improvethedream.org">info@ImproveTheDream.org</a>

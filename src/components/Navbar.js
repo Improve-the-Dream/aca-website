@@ -59,12 +59,13 @@ function Navbar(props) {
   return (
     <div className="Navbar">
       <div className="content open-sans">
-        <img
+        <div className="temp-replacement-for-logo"></div>
+        {/* <img
           className="logo"
           alt="logo"
           src={Logo}
           onClick={() => scrollToSection(props.homeRef)}
-        />
+        /> */}
         {windowWidth > 780 ? (
           <div className="links">
             <Links />
