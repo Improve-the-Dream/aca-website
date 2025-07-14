@@ -1,6 +1,7 @@
 import React from "react";
 import { CgFileDocument } from "react-icons/cg";
 import { scrollToSection } from "../functions/Scroll";
+import Disclaimer from "../components/Disclaimer";
 
 function Home(props) {
   return (
@@ -39,6 +40,7 @@ function Home(props) {
       <button onClick={() => scrollToSection(props.actionRef)}>
         Take Action Now!
       </button>
+      <Disclaimer />
     </div>
   );
 }

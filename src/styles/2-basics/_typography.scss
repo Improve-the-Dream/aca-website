@@ -37,11 +37,9 @@ mark.white {
 
 .bold {
   font-weight: bolder;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 72%,
-    $lightred 50%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0) 72%,
+      $lightred 50%);
 }
 
 .italic {
@@ -55,4 +53,32 @@ mark.white {
   font-weight: bold;
   position: relative;
   top: 5px;
+}
+
+.disclaimer {
+  margin: 24px 0;
+  padding: 16px 20px;
+  background: linear-gradient(90deg, #fffbe6 60%, #fff7d6 100%);
+  border-left: 5px solid #ffe58f;
+  border-radius: 6px;
+  color: #ad8b00;
+  font-size: 1.05rem;
+  box-shadow: 0 2px 8px rgba(255, 229, 143, 0.08);
+  line-height: 1.6;
+  transition: box-shadow 0.2s;
+
+  strong {
+    color: #b8860b;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+}
+
+.disclaimer-highlight {
+  font-weight: 700;
+  color: #b8860b;
+  background: #fff3cd;
+  padding: 0 3px;
+  border-radius: 3px;
+  text-decoration: underline wavy #ffe58f 1.5px;
 }

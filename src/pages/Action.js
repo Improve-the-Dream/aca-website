@@ -1,10 +1,12 @@
 import React from "react";
 import CallingTool from "../components/CallingTool";
+import Disclaimer from "../components/Disclaimer";
 
 function Action(props) {
   return (
     <div className="Action p-30" ref={props.refs}>
       <h1>Take Action</h1>
+      <Disclaimer />
       <p>
         <span className="number">1. </span>
         <span className="bold">Call your Representative's Office</span> to
