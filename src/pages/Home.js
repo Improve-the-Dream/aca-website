@@ -1,7 +1,7 @@
 import React from "react";
 import { CgFileDocument } from "react-icons/cg";
 import { scrollToSection } from "../functions/Scroll";
-import Disclaimer from "../components/Disclaimer";
+// import Disclaimer from "../components/Disclaimer";
 
 function Home(props) {
   return (
@@ -41,7 +41,7 @@ function Home(props) {
         Take Action Now!
       </button>
       <div className="p-30">
-        <Disclaimer />
+        {/* <Disclaimer /> */}
       </div>
     </div>
   );
