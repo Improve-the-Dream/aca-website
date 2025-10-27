@@ -19,22 +19,22 @@ function Home(props) {
         <button
           onClick={() =>
             window.open(
-              "https://www.congress.gov/bill/118th-congress/house-bill/3442",
+              "https://www.congress.gov/bill/119th-congress/house-bill/5528",
               "_blank"
             )
           }
         >
-          <CgFileDocument /> H.R. 3442
+          <CgFileDocument /> H.R. 5528
         </button>
         <button
           onClick={() =>
             window.open(
-              "https://www.congress.gov/bill/118th-congress/senate-bill/1667",
+              "https://www.congress.gov/bill/119th-congress/senate-bill/2886",
               "_blank"
             )
           }
         >
-          <CgFileDocument /> S. 1667
+          <CgFileDocument /> S. 2886
         </button>
       </div>
       <button onClick={() => scrollToSection(props.actionRef)}>

@@ -27,7 +27,7 @@ function BillViewer() {
       <button
         onClick={() =>
           window.open(
-            "https://www.congress.gov/bill/118th-congress/house-bill/3442",
+            "https://www.congress.gov/bill/119th-congress/house-bill/5528",
             "_blank"
           )
         }

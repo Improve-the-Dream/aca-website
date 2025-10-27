@@ -19,7 +19,7 @@ function Action(props) {
           live in <span className="italic">[city, state]</span>. I am calling as
           a constituent to ask Representative{" "}
           <span className="italic">[your representative's name]</span> to
-          co-sponsor HR.3442/S.1667, America's CHILDREN Act of 2023, to provide
+          co-sponsor H.R. 5528/S. 2886, America's CHILDREN Act, to provide
           permanent protections for children of long-term visa holders who grew
           up in the U.S. while maintaining a documented status. This bill would
           ensure that children who are raised and educated can contribute to the
